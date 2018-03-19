@@ -1,0 +1,3 @@
+rootProject.name = 'stylefitapps'
+
+include ':app'
