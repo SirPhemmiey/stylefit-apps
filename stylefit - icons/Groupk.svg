@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <circle id="groupk-b" cx="20.5" cy="20.5" r="20.5"/>
+    <filter id="groupk-a" width="136.6%" height="136.6%" x="-18.3%" y="-18.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.77254902   0 0 0 0 0.77254902   0 0 0 0 0.77254902  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(5 5)">
+    <use fill="#000" filter="url(#groupk-a)" xlink:href="#groupk-b"/>
+    <use fill="#FFF" xlink:href="#groupk-b"/>
+    <polygon fill="#E5E5E5" points="19.986 25.75 13.814 28.995 14.993 22.122 10 17.255 16.9 16.253 19.986 10 23.072 16.253 29.972 17.255 24.979 22.122 26.158 28.995"/>
+  </g>
+</svg>
